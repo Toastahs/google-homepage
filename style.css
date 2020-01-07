@@ -61,4 +61,45 @@ a:hover {
 .bbutton:hover {
   border: 1px solid black;
 }
+#footer {
+  
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(211,211,211);
+    color: black;
+  
+}
 
+#leftfooter {
+  max-width: 500px;
+}
+
+#leftfooter a {
+  
+    padding-left: 30px;
+    color: #000;
+    opacity: 0.75;
+    max-width: 500px;
+}
+
+.gb_b {
+    display: inline-block;
+    padding-left: 30px;
+    color: #000;
+    opacity: 0.75;
+    max-width: 500px;
+}
+.gb_c {  
+  text-align: right;
+  line-height: 24px;
+  outline: none; 
+  color: #000;
+  opacity: 0.75;
+  padding-right: 30px;
+  max-width: 500px;
+  float: right;
+}
